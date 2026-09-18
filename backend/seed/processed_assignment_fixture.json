@@ -1,0 +1,2760 @@
+{
+  "sources": [
+    {
+      "source_id": "demo-calendar-1",
+      "source_type": "CALENDAR",
+      "timestamp": "2026-09-21T00:00:00",
+      "author": "Arjun Malhotra",
+      "recipients": [],
+      "subject": "Arjun Malhotra calendar, 21-25 September 2026",
+      "content": "2026-09-21 09:00-09:35 Leadership Sync\n2026-09-21 14:00-14:30 1:1 with Neha\n2026-09-21 16:00-17:00 Blocked\n2026-09-22 11:00-12:00 Internal Budget Review\n2026-09-22 15:00-15:30 Blocked\n2026-09-23 15:00-15:30 Call — Meridian Logistics\n2026-09-23 18:00-18:15 Blocked\n2026-09-24 09:00-10:00 Board Prep Session\n2026-09-24 16:00-17:00 Hiring Panel — Sales Associate\n2026-09-25 10:00-10:30 Facilities Check-in\n2026-09-25 13:00-14:00 Blocked",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "events": [
+          {
+            "title": "Leadership Sync",
+            "start": "2026-09-21T09:00:00",
+            "end": "2026-09-21T09:35:00",
+            "participants": [
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-21 09:00-09:35 Leadership Sync"
+          },
+          {
+            "title": "1:1 with Neha",
+            "start": "2026-09-21T14:00:00",
+            "end": "2026-09-21T14:30:00",
+            "participants": [
+              "Arjun Malhotra",
+              "Neha Kapoor"
+            ],
+            "evidence_text": "2026-09-21 14:00-14:30 1:1 with Neha"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-21T16:00:00",
+            "end": "2026-09-21T17:00:00",
+            "participants": [
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-21 16:00-17:00 Blocked"
+          },
+          {
+            "title": "Internal Budget Review",
+            "start": "2026-09-22T11:00:00",
+            "end": "2026-09-22T12:00:00",
+            "participants": [
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-22 11:00-12:00 Internal Budget Review"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-22T15:00:00",
+            "end": "2026-09-22T15:30:00",
+            "participants": [
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-22 15:00-15:30 Blocked"
+          },
+          {
+            "title": "Call — Meridian Logistics",
+            "start": "2026-09-23T15:00:00",
+            "end": "2026-09-23T15:30:00",
+            "participants": [
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-23 15:00-15:30 Call — Meridian Logistics"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-23T18:00:00",
+            "end": "2026-09-23T18:15:00",
+            "participants": [
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-23 18:00-18:15 Blocked"
+          },
+          {
+            "title": "Board Prep Session",
+            "start": "2026-09-24T09:00:00",
+            "end": "2026-09-24T10:00:00",
+            "participants": [
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-24 09:00-10:00 Board Prep Session"
+          },
+          {
+            "title": "Hiring Panel — Sales Associate",
+            "start": "2026-09-24T16:00:00",
+            "end": "2026-09-24T17:00:00",
+            "participants": [
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-24 16:00-17:00 Hiring Panel — Sales Associate"
+          },
+          {
+            "title": "Facilities Check-in",
+            "start": "2026-09-25T10:00:00",
+            "end": "2026-09-25T10:30:00",
+            "participants": [
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-25 10:00-10:30 Facilities Check-in"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-25T13:00:00",
+            "end": "2026-09-25T14:00:00",
+            "participants": [
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-25 13:00-14:00 Blocked"
+          }
+        ],
+        "timestamp_basis": "Assignment-week snapshot availability assumption; original publication timestamp is not supplied."
+      },
+      "fingerprint": "source_4732ba16a398af27e0932ea5",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-calendar-2",
+      "source_type": "CALENDAR",
+      "timestamp": "2026-09-21T00:00:00",
+      "author": "Neha Kapoor",
+      "recipients": [],
+      "subject": "Neha Kapoor calendar, 21-25 September 2026",
+      "content": "2026-09-21 10:00-11:00 Blocked\n2026-09-21 14:00-14:30 1:1 with Arjun\n2026-09-22 13:00-14:00 Campaign Vendor Call\n2026-09-23 10:00-10:30 Deck Prep\n2026-09-23 13:00-15:00 Blocked\n2026-09-24 09:30-10:00 Deck Review with Arjun\n2026-09-25 11:00-12:00 Blocked",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "events": [
+          {
+            "title": "Blocked",
+            "start": "2026-09-21T10:00:00",
+            "end": "2026-09-21T11:00:00",
+            "participants": [
+              "Neha Kapoor"
+            ],
+            "evidence_text": "2026-09-21 10:00-11:00 Blocked"
+          },
+          {
+            "title": "1:1 with Arjun",
+            "start": "2026-09-21T14:00:00",
+            "end": "2026-09-21T14:30:00",
+            "participants": [
+              "Neha Kapoor",
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-21 14:00-14:30 1:1 with Arjun"
+          },
+          {
+            "title": "Campaign Vendor Call",
+            "start": "2026-09-22T13:00:00",
+            "end": "2026-09-22T14:00:00",
+            "participants": [
+              "Neha Kapoor"
+            ],
+            "evidence_text": "2026-09-22 13:00-14:00 Campaign Vendor Call"
+          },
+          {
+            "title": "Deck Prep",
+            "start": "2026-09-23T10:00:00",
+            "end": "2026-09-23T10:30:00",
+            "participants": [
+              "Neha Kapoor"
+            ],
+            "evidence_text": "2026-09-23 10:00-10:30 Deck Prep"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-23T13:00:00",
+            "end": "2026-09-23T15:00:00",
+            "participants": [
+              "Neha Kapoor"
+            ],
+            "evidence_text": "2026-09-23 13:00-15:00 Blocked"
+          },
+          {
+            "title": "Deck Review with Arjun",
+            "start": "2026-09-24T09:30:00",
+            "end": "2026-09-24T10:00:00",
+            "participants": [
+              "Neha Kapoor",
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-24 09:30-10:00 Deck Review with Arjun"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-25T11:00:00",
+            "end": "2026-09-25T12:00:00",
+            "participants": [
+              "Neha Kapoor"
+            ],
+            "evidence_text": "2026-09-25 11:00-12:00 Blocked"
+          }
+        ],
+        "timestamp_basis": "Assignment-week snapshot availability assumption; original publication timestamp is not supplied."
+      },
+      "fingerprint": "source_e2d7e7e1fb18134987e43c7a",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-calendar-3",
+      "source_type": "CALENDAR",
+      "timestamp": "2026-09-21T00:00:00",
+      "author": "Raghav Sethi",
+      "recipients": [],
+      "subject": "Raghav Sethi calendar, 21-25 September 2026",
+      "content": "2026-09-21 09:00-09:35 Leadership Sync\n2026-09-21 13:00-14:00 Blocked\n2026-09-22 11:00-12:00 Internal Budget Review\n2026-09-22 15:30-16:00 Ops Standup\n2026-09-23 09:00-11:00 Blocked\n2026-09-24 14:00-15:00 Blocked\n2026-09-25 10:00-10:30 Facilities Check-in\n2026-09-25 15:00-16:00 Blocked",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "events": [
+          {
+            "title": "Leadership Sync",
+            "start": "2026-09-21T09:00:00",
+            "end": "2026-09-21T09:35:00",
+            "participants": [
+              "Raghav Sethi"
+            ],
+            "evidence_text": "2026-09-21 09:00-09:35 Leadership Sync"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-21T13:00:00",
+            "end": "2026-09-21T14:00:00",
+            "participants": [
+              "Raghav Sethi"
+            ],
+            "evidence_text": "2026-09-21 13:00-14:00 Blocked"
+          },
+          {
+            "title": "Internal Budget Review",
+            "start": "2026-09-22T11:00:00",
+            "end": "2026-09-22T12:00:00",
+            "participants": [
+              "Raghav Sethi"
+            ],
+            "evidence_text": "2026-09-22 11:00-12:00 Internal Budget Review"
+          },
+          {
+            "title": "Ops Standup",
+            "start": "2026-09-22T15:30:00",
+            "end": "2026-09-22T16:00:00",
+            "participants": [
+              "Raghav Sethi"
+            ],
+            "evidence_text": "2026-09-22 15:30-16:00 Ops Standup"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-23T09:00:00",
+            "end": "2026-09-23T11:00:00",
+            "participants": [
+              "Raghav Sethi"
+            ],
+            "evidence_text": "2026-09-23 09:00-11:00 Blocked"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-24T14:00:00",
+            "end": "2026-09-24T15:00:00",
+            "participants": [
+              "Raghav Sethi"
+            ],
+            "evidence_text": "2026-09-24 14:00-15:00 Blocked"
+          },
+          {
+            "title": "Facilities Check-in",
+            "start": "2026-09-25T10:00:00",
+            "end": "2026-09-25T10:30:00",
+            "participants": [
+              "Raghav Sethi"
+            ],
+            "evidence_text": "2026-09-25 10:00-10:30 Facilities Check-in"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-25T15:00:00",
+            "end": "2026-09-25T16:00:00",
+            "participants": [
+              "Raghav Sethi"
+            ],
+            "evidence_text": "2026-09-25 15:00-16:00 Blocked"
+          }
+        ],
+        "timestamp_basis": "Assignment-week snapshot availability assumption; original publication timestamp is not supplied."
+      },
+      "fingerprint": "source_94e592d64bf6821840900078",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-calendar-4",
+      "source_type": "CALENDAR",
+      "timestamp": "2026-09-21T00:00:00",
+      "author": "Divya Rao",
+      "recipients": [],
+      "subject": "Divya Rao calendar, 21-25 September 2026",
+      "content": "2026-09-21 14:30-15:00 Budget Prep\n2026-09-21 16:00-17:00 Blocked\n2026-09-22 09:00-09:15 Quick Call with Arjun\n2026-09-22 11:00-12:00 Internal Budget Review\n2026-09-23 13:00-14:00 Blocked\n2026-09-24 09:00-10:00 Board Prep Session\n2026-09-24 14:00-15:00 Blocked\n2026-09-25 10:00-11:00 Blocked",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "events": [
+          {
+            "title": "Budget Prep",
+            "start": "2026-09-21T14:30:00",
+            "end": "2026-09-21T15:00:00",
+            "participants": [
+              "Divya Rao"
+            ],
+            "evidence_text": "2026-09-21 14:30-15:00 Budget Prep"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-21T16:00:00",
+            "end": "2026-09-21T17:00:00",
+            "participants": [
+              "Divya Rao"
+            ],
+            "evidence_text": "2026-09-21 16:00-17:00 Blocked"
+          },
+          {
+            "title": "Quick Call with Arjun",
+            "start": "2026-09-22T09:00:00",
+            "end": "2026-09-22T09:15:00",
+            "participants": [
+              "Divya Rao",
+              "Arjun Malhotra"
+            ],
+            "evidence_text": "2026-09-22 09:00-09:15 Quick Call with Arjun"
+          },
+          {
+            "title": "Internal Budget Review",
+            "start": "2026-09-22T11:00:00",
+            "end": "2026-09-22T12:00:00",
+            "participants": [
+              "Divya Rao"
+            ],
+            "evidence_text": "2026-09-22 11:00-12:00 Internal Budget Review"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-23T13:00:00",
+            "end": "2026-09-23T14:00:00",
+            "participants": [
+              "Divya Rao"
+            ],
+            "evidence_text": "2026-09-23 13:00-14:00 Blocked"
+          },
+          {
+            "title": "Board Prep Session",
+            "start": "2026-09-24T09:00:00",
+            "end": "2026-09-24T10:00:00",
+            "participants": [
+              "Divya Rao"
+            ],
+            "evidence_text": "2026-09-24 09:00-10:00 Board Prep Session"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-24T14:00:00",
+            "end": "2026-09-24T15:00:00",
+            "participants": [
+              "Divya Rao"
+            ],
+            "evidence_text": "2026-09-24 14:00-15:00 Blocked"
+          },
+          {
+            "title": "Blocked",
+            "start": "2026-09-25T10:00:00",
+            "end": "2026-09-25T11:00:00",
+            "participants": [
+              "Divya Rao"
+            ],
+            "evidence_text": "2026-09-25 10:00-11:00 Blocked"
+          }
+        ],
+        "timestamp_basis": "Assignment-week snapshot availability assumption; original publication timestamp is not supplied."
+      },
+      "fingerprint": "source_529b0d0c3fcb1bb0e3a0e979",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-leadership-sync",
+      "source_type": "MEETING",
+      "timestamp": "2026-09-21T09:35:00",
+      "author": "Leadership Sync transcript",
+      "recipients": [],
+      "subject": "Leadership Sync",
+      "content": "Attendees: Arjun Malhotra, Neha Kapoor, Raghav Sethi, Divya Rao\nArjun: Let’s keep this quick. Neha, where are we on the Q3 campaign deck?\nNeha: Draft is 80% done. I’ll send it to Arjun for review by Wednesday.\nArjun: Good. Also, remind me — I told Raghav I’d send him the updated vendor list. I’ll get that to him by end of day tomorrow.\nRaghav: Appreciated. Separately, the Mumbai office renewal paperwork needs someone to sign off this week. Not sure whose desk that’s on right now.\nDivya: I think that’s supposed to be Facilities, but I haven’t seen anyone pick it up.\nArjun: Okay, flag it, don’t assume. Divya, can you also pull the July expense variance report before Thursday’s board prep?\nDivya: Yes, I’ll have it ready Wednesday evening.\nArjun: One more thing — client call with Meridian Logistics got pushed. I need to reconfirm the new time with their team myself.\nNeha: Also, just a reminder, the campaign deck review — I said Wednesday, but realistically Thursday morning is safer.\nArjun: Noted. Let’s close here.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "start": "2026-09-21T09:00:00",
+        "end": "2026-09-21T09:35:00"
+      },
+      "fingerprint": "source_55c7a9b7ee461c599f418fc5",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-1-1",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-21T09:50:00",
+      "author": "Raghav Sethi",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Vendor List",
+      "content": "Following up from the sync — can you send the updated vendor list today?",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-1",
+        "from_email": "raghav.sethi@veridian-corp.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_7d4310b40cbbb54ab4c1dfc6",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-5-1",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-21T10:15:00",
+      "author": "Facilities",
+      "recipients": [
+        "All Staff"
+      ],
+      "subject": "Mumbai Office Lease Renewal",
+      "content": "Reminder: the Mumbai office lease renewal requires an authorized signature by Friday, 25 September.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-5",
+        "from_email": "facilities@veridian-corp.example",
+        "to_emails": [
+          "All Staff"
+        ]
+      },
+      "fingerprint": "source_8cfa83b13a3653a35b72e379",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-2-1",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-21T11:00:00",
+      "author": "Neha Kapoor",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Q3 Campaign Deck",
+      "content": "Deck’s coming together, still targeting Wednesday for your review.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-2",
+        "from_email": "neha.kapoor@veridian-corp.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_77982b44661255ff63cfe5c7",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-3-1",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-21T13:00:00",
+      "author": "Priya Nair",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Call Reschedule",
+      "content": "Our scheduled call this week got bumped from our side — can you propose a new time? We’re flexible Tuesday–Thursday afternoons.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-3",
+        "from_email": "priya.nair@meridianlogistics.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_1a7bef8daa03debc68260236",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-4-1",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-21T14:30:00",
+      "author": "Divya Rao",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Expense Variance Report",
+      "content": "Starting on the July variance numbers, targeting Thursday morning for board prep as discussed.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-4",
+        "from_email": "divya.rao@veridian-corp.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_2e6947cd943c90b348a3c198",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-1-2",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-21T17:40:00",
+      "author": "Arjun Malhotra",
+      "recipients": [
+        "Raghav Sethi"
+      ],
+      "subject": "Vendor List",
+      "content": "Running behind, will send first thing tomorrow morning instead.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-1",
+        "from_email": "arjun.malhotra@veridian-corp.example",
+        "to_emails": [
+          "raghav.sethi@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_330a571a5a308e05ae2b17d7",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-voice-1",
+      "source_type": "VOICE_NOTE",
+      "timestamp": "2026-09-21T18:40:00",
+      "author": "Arjun Malhotra",
+      "recipients": [],
+      "subject": "Personal voice note 1",
+      "content": "Quick note to self — need to get Raghav that vendor list, I think I said today but it might slip to tomorrow morning, remind me. Also still haven’t heard back on the Mumbai lease thing, someone needs to own that, I don’t think it’s me.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "personal_memo": true,
+        "location": "cab"
+      },
+      "fingerprint": "source_edd05ac1ec363e1fdd7523da",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-4-2",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-22T09:00:00",
+      "author": "Arjun Malhotra",
+      "recipients": [
+        "Divya Rao"
+      ],
+      "subject": "Expense Variance Report",
+      "content": "Actually, can I get it by Wednesday evening instead? Want time to review before Thursday.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-4",
+        "from_email": "arjun.malhotra@veridian-corp.example",
+        "to_emails": [
+          "divya.rao@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_ef6f7937101cb59b9c47fd50",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-1-3",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-22T09:15:00",
+      "author": "Raghav Sethi",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Vendor List",
+      "content": "No worries, whenever you get a chance today works.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-1",
+        "from_email": "raghav.sethi@veridian-corp.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_fddce0f3fa7c9dde5504ce32",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-4-3",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-22T09:40:00",
+      "author": "Divya Rao",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Expense Variance Report",
+      "content": "Wednesday evening is tight but doable, I’ll prioritize it.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-4",
+        "from_email": "divya.rao@veridian-corp.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_a455e1130c3413cfdcc7c2bc",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-5-2",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-22T11:00:00",
+      "author": "Raghav Sethi",
+      "recipients": [
+        "Arjun Malhotra",
+        "Divya Rao"
+      ],
+      "subject": "Mumbai Office Lease Renewal",
+      "content": "Following up from the sync — has anyone confirmed who’s signing off on the Mumbai renewal? Don’t think it’s been assigned.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-5",
+        "from_email": "raghav.sethi@veridian-corp.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example",
+          "divya.rao@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_32c0d4756906742d8ec3b469",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-3-2",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-22T15:00:00",
+      "author": "Arjun Malhotra",
+      "recipients": [
+        "Priya Nair"
+      ],
+      "subject": "Call Reschedule",
+      "content": "Apologies for the delay — how about Wednesday 3:00 PM?",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-3",
+        "from_email": "arjun.malhotra@veridian-corp.example",
+        "to_emails": [
+          "priya.nair@meridianlogistics.example"
+        ]
+      },
+      "fingerprint": "source_f40150d8577ce262432f044f",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-2-2",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-22T16:15:00",
+      "author": "Neha Kapoor",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Q3 Campaign Deck",
+      "content": "Heads up — shifting the review to Thursday morning instead of Wednesday, need one more day on the data slides.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-2",
+        "from_email": "neha.kapoor@veridian-corp.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_0787751c0124c8e4c3cf06a0",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-3-3",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-22T17:45:00",
+      "author": "Priya Nair",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Call Reschedule",
+      "content": "Wednesday 3 PM works on our end, confirmed.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-3",
+        "from_email": "priya.nair@meridianlogistics.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_f670e75110cd6159e4f0d273",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-1-4",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-22T18:30:00",
+      "author": "Arjun Malhotra",
+      "recipients": [
+        "Raghav Sethi"
+      ],
+      "subject": "Vendor List",
+      "content": "Sorry, got pulled into board prep — will send by tomorrow (Wednesday) morning for sure.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-1",
+        "from_email": "arjun.malhotra@veridian-corp.example",
+        "to_emails": [
+          "raghav.sethi@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_b3607fc064faa1e00acbd9b9",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-voice-2",
+      "source_type": "VOICE_NOTE",
+      "timestamp": "2026-09-23T08:15:00",
+      "author": "Arjun Malhotra",
+      "recipients": [],
+      "subject": "Personal voice note 2",
+      "content": "Reminder — expense variance report from Divya needs to be in my hands by Wednesday evening, not Thursday, I want time to go through it before board prep. Also Meridian call — I owe Priya a time, need to lock that in today.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "personal_memo": true,
+        "location": null
+      },
+      "fingerprint": "source_028b24abef560ee3014e40da",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-1-5",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-23T08:45:00",
+      "author": "Raghav Sethi",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Vendor List",
+      "content": "Just checking — still good for this morning?",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-1",
+        "from_email": "raghav.sethi@veridian-corp.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_81937cdcc1a543b469c2b3e7",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-5-3",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-23T09:30:00",
+      "author": "Divya Rao",
+      "recipients": [
+        "Raghav Sethi",
+        "Arjun Malhotra"
+      ],
+      "subject": "Mumbai Office Lease Renewal",
+      "content": "Not on my end — I believe this typically sits with Facilities directly, not us.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-5",
+        "from_email": "divya.rao@veridian-corp.example",
+        "to_emails": [
+          "raghav.sethi@veridian-corp.example",
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_704c5b33278f24a3b91c86f9",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-2-3",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-23T10:00:00",
+      "author": "Arjun Malhotra",
+      "recipients": [
+        "Neha Kapoor"
+      ],
+      "subject": "Q3 Campaign Deck",
+      "content": "Understood, Thursday morning works. What time exactly?",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-2",
+        "from_email": "arjun.malhotra@veridian-corp.example",
+        "to_emails": [
+          "neha.kapoor@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_9f1498b6eb1cf82aefb07117",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-2-4",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-23T10:20:00",
+      "author": "Neha Kapoor",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Q3 Campaign Deck",
+      "content": "Let’s say 9:30 AM Thursday, before your board prep block.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-2",
+        "from_email": "neha.kapoor@veridian-corp.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_e6fa93696b2fe0c3e12271a6",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-3-4",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-23T13:30:00",
+      "author": "Priya Nair",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Call Reschedule",
+      "content": "Quick check — still on for 3 PM today?",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-3",
+        "from_email": "priya.nair@meridianlogistics.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_da711c4db898bbbf03c9e216",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-3-5",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-23T14:00:00",
+      "author": "Arjun Malhotra",
+      "recipients": [
+        "Priya Nair"
+      ],
+      "subject": "Call Reschedule",
+      "content": "Yes, confirmed, see you at 3.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-3",
+        "from_email": "arjun.malhotra@veridian-corp.example",
+        "to_emails": [
+          "priya.nair@meridianlogistics.example"
+        ]
+      },
+      "fingerprint": "source_16a55e3e6f32fab702e5a252",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-4-4",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-23T18:00:00",
+      "author": "Divya Rao",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Expense Variance Report",
+      "content": "Report attached, sent as promised.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-4",
+        "from_email": "divya.rao@veridian-corp.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_347d06f95411e2b4d75c38e1",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-4-5",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-23T18:10:00",
+      "author": "Arjun Malhotra",
+      "recipients": [
+        "Divya Rao"
+      ],
+      "subject": "Expense Variance Report",
+      "content": "Got it, thank you — exactly what I needed before tomorrow.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-4",
+        "from_email": "arjun.malhotra@veridian-corp.example",
+        "to_emails": [
+          "divya.rao@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_e878a5cdb507b0d28eddb992",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-2-5",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-24T08:00:00",
+      "author": "Neha Kapoor",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Q3 Campaign Deck",
+      "content": "Deck is ready, attaching the draft ahead of our 9:30 review.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-2",
+        "from_email": "neha.kapoor@veridian-corp.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_3b6b5aec9c4de83ba105443c",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-5-4",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-24T16:00:00",
+      "author": "Facilities",
+      "recipients": [
+        "All Staff"
+      ],
+      "subject": "Mumbai Office Lease Renewal",
+      "content": "Second reminder: signature is still pending. Deadline is Friday, 25 September, end of day.",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-5",
+        "from_email": "facilities@veridian-corp.example",
+        "to_emails": [
+          "All Staff"
+        ]
+      },
+      "fingerprint": "source_740c0999cbdf778f39044c06",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "source_id": "demo-email-5-5",
+      "source_type": "EMAIL",
+      "timestamp": "2026-09-24T16:45:00",
+      "author": "Raghav Sethi",
+      "recipients": [
+        "Arjun Malhotra"
+      ],
+      "subject": "Mumbai Office Lease Renewal",
+      "content": "This is now one day out and still unowned — can you confirm who’s handling it?",
+      "metadata": {
+        "dataset": "assignment-1",
+        "people": {
+          "Arjun Malhotra": "arjun.malhotra@veridian-corp.example",
+          "Neha Kapoor": "neha.kapoor@veridian-corp.example",
+          "Raghav Sethi": "raghav.sethi@veridian-corp.example",
+          "Divya Rao": "divya.rao@veridian-corp.example",
+          "Priya Nair": "priya.nair@meridianlogistics.example",
+          "Facilities": "facilities@veridian-corp.example"
+        },
+        "provenance": "Assignment 1_DataPack_ExecutiveProductivityAgent.pdf",
+        "thread_id": "demo-thread-5",
+        "from_email": "raghav.sethi@veridian-corp.example",
+        "to_emails": [
+          "arjun.malhotra@veridian-corp.example"
+        ]
+      },
+      "fingerprint": "source_3a09fb232006ce6251745c89",
+      "processing_status": "PROCESSED",
+      "created_at": "2026-09-25T09:00:00"
+    }
+  ],
+  "observations": [
+    {
+      "type": "REMINDER",
+      "kind": "DELIVERY",
+      "actor": "Raghav Sethi",
+      "action": "Send",
+      "object": "updated vendor list",
+      "counterparty": "Raghav Sethi",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": "today",
+      "completion_evidence": null,
+      "evidence_text": "Following up from the sync — can you send the updated vendor list today?",
+      "confidence": 1.0,
+      "title": "Send updated vendor list to Raghav",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_892ebc1a9a28cc5603410dbd",
+      "source_id": "demo-email-1-1",
+      "timestamp": "2026-09-21T09:50:00",
+      "sequence": 0,
+      "normalized_deadline": "2026-09-21T23:59:59",
+      "deadline_precision": "DAY",
+      "deadline_assumption": "Date-only / end-of-day deadline represented as 23:59:59, not an asserted business closing time.",
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-vendor",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "DEADLINE_UPDATE",
+      "kind": "DELIVERY",
+      "actor": "Arjun Malhotra",
+      "action": "Send",
+      "object": "updated vendor list",
+      "counterparty": "Raghav Sethi",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": "tomorrow morning",
+      "completion_evidence": null,
+      "evidence_text": "Running behind, will send first thing tomorrow morning instead.",
+      "confidence": 1.0,
+      "title": "Send updated vendor list to Raghav",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_bf2e3f3904c4950f7c2935b9",
+      "source_id": "demo-email-1-2",
+      "timestamp": "2026-09-21T17:40:00",
+      "sequence": 1,
+      "normalized_deadline": "2026-09-22T12:00:00",
+      "deadline_precision": "PART_OF_DAY",
+      "deadline_assumption": "morning is represented by its configured window end (12:00); the source gave no exact time.",
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-vendor",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "REMINDER",
+      "kind": "DELIVERY",
+      "actor": "Raghav Sethi",
+      "action": "Send",
+      "object": "updated vendor list",
+      "counterparty": "Raghav Sethi",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": "today",
+      "completion_evidence": null,
+      "evidence_text": "No worries, whenever you get a chance today works.",
+      "confidence": 1.0,
+      "title": "Send updated vendor list to Raghav",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_69fa15472653ea6a53b30dec",
+      "source_id": "demo-email-1-3",
+      "timestamp": "2026-09-22T09:15:00",
+      "sequence": 2,
+      "normalized_deadline": "2026-09-22T23:59:59",
+      "deadline_precision": "DAY",
+      "deadline_assumption": "Date-only / end-of-day deadline represented as 23:59:59, not an asserted business closing time.",
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-vendor",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "DEADLINE_UPDATE",
+      "kind": "DELIVERY",
+      "actor": "Arjun Malhotra",
+      "action": "Send",
+      "object": "updated vendor list",
+      "counterparty": "Raghav Sethi",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": "tomorrow (Wednesday) morning",
+      "completion_evidence": null,
+      "evidence_text": "Sorry, got pulled into board prep — will send by tomorrow (Wednesday) morning for sure.",
+      "confidence": 1.0,
+      "title": "Send updated vendor list to Raghav",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_e6ff2a5438042c8ffc3505cc",
+      "source_id": "demo-email-1-4",
+      "timestamp": "2026-09-22T18:30:00",
+      "sequence": 3,
+      "normalized_deadline": "2026-09-23T12:00:00",
+      "deadline_precision": "PART_OF_DAY",
+      "deadline_assumption": "morning is represented by its configured window end (12:00); the source gave no exact time.",
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-vendor",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "REMINDER",
+      "kind": "DELIVERY",
+      "actor": "Raghav Sethi",
+      "action": "Send",
+      "object": "updated vendor list",
+      "counterparty": "Raghav Sethi",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": "this morning",
+      "completion_evidence": null,
+      "evidence_text": "Just checking — still good for this morning?",
+      "confidence": 1.0,
+      "title": "Send updated vendor list to Raghav",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_a9687f1e17b905d933419aa2",
+      "source_id": "demo-email-1-5",
+      "timestamp": "2026-09-23T08:45:00",
+      "sequence": 4,
+      "normalized_deadline": "2026-09-23T12:00:00",
+      "deadline_precision": "PART_OF_DAY",
+      "deadline_assumption": "morning is represented by its configured window end (12:00); the source gave no exact time.",
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-vendor",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "UNCERTAINTY",
+      "kind": "APPROVAL",
+      "actor": "Facilities",
+      "action": "Mumbai",
+      "object": "Mumbai office lease renewal",
+      "counterparty": null,
+      "owner": null,
+      "ownership_clear": false,
+      "deadline_text": "Friday, 25 September",
+      "completion_evidence": null,
+      "evidence_text": "Reminder: the Mumbai office lease renewal requires an authorized signature by Friday, 25 September.",
+      "confidence": 1.0,
+      "title": "Mumbai office lease renewal signature",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_2192742b9f351af08453bb94",
+      "source_id": "demo-email-5-1",
+      "timestamp": "2026-09-21T10:15:00",
+      "sequence": 5,
+      "normalized_deadline": "2026-09-25T23:59:59",
+      "deadline_precision": "DAY",
+      "deadline_assumption": "Date-only / end-of-day deadline represented as 23:59:59, not an asserted business closing time.",
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-lease",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "UNCERTAINTY",
+      "kind": "APPROVAL",
+      "actor": "Raghav Sethi",
+      "action": "Mumbai",
+      "object": "Mumbai office lease renewal",
+      "counterparty": null,
+      "owner": null,
+      "ownership_clear": false,
+      "deadline_text": null,
+      "completion_evidence": null,
+      "evidence_text": "Following up from the sync — has anyone confirmed who’s signing off on the Mumbai renewal? Don’t think it’s been assigned.",
+      "confidence": 1.0,
+      "title": "Mumbai office lease renewal signature",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_2353e6a8ab01f67afd01c233",
+      "source_id": "demo-email-5-2",
+      "timestamp": "2026-09-22T11:00:00",
+      "sequence": 6,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-lease",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "UNCERTAINTY",
+      "kind": "APPROVAL",
+      "actor": "Divya Rao",
+      "action": "Mumbai",
+      "object": "Mumbai office lease renewal",
+      "counterparty": null,
+      "owner": null,
+      "ownership_clear": false,
+      "deadline_text": null,
+      "completion_evidence": null,
+      "evidence_text": "Not on my end — I believe this typically sits with Facilities directly, not us.",
+      "confidence": 1.0,
+      "title": "Mumbai office lease renewal signature",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_0c3796208a979af2acd90ac5",
+      "source_id": "demo-email-5-3",
+      "timestamp": "2026-09-23T09:30:00",
+      "sequence": 7,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-lease",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "UNCERTAINTY",
+      "kind": "APPROVAL",
+      "actor": "Facilities",
+      "action": "Mumbai",
+      "object": "Mumbai office lease renewal",
+      "counterparty": null,
+      "owner": null,
+      "ownership_clear": false,
+      "deadline_text": "Friday, 25 September, end of day",
+      "completion_evidence": null,
+      "evidence_text": "Second reminder: signature is still pending. Deadline is Friday, 25 September, end of day.",
+      "confidence": 1.0,
+      "title": "Mumbai office lease renewal signature",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_606c30f2646df02e7a3a0428",
+      "source_id": "demo-email-5-4",
+      "timestamp": "2026-09-24T16:00:00",
+      "sequence": 8,
+      "normalized_deadline": "2026-09-25T23:59:59",
+      "deadline_precision": "DAY",
+      "deadline_assumption": "Date-only / end-of-day deadline represented as 23:59:59, not an asserted business closing time.",
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-lease",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "UNCERTAINTY",
+      "kind": "APPROVAL",
+      "actor": "Raghav Sethi",
+      "action": "Mumbai",
+      "object": "Mumbai office lease renewal",
+      "counterparty": null,
+      "owner": null,
+      "ownership_clear": false,
+      "deadline_text": null,
+      "completion_evidence": null,
+      "evidence_text": "This is now one day out and still unowned — can you confirm who’s handling it?",
+      "confidence": 1.0,
+      "title": "Mumbai office lease renewal signature",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_b9d0babfd5152340478ab9dd",
+      "source_id": "demo-email-5-5",
+      "timestamp": "2026-09-24T16:45:00",
+      "sequence": 9,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-lease",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMMITMENT",
+      "kind": "DELIVERY",
+      "actor": "Divya Rao",
+      "action": "Receive",
+      "object": "expense variance report",
+      "counterparty": "Arjun Malhotra",
+      "owner": "Divya Rao",
+      "ownership_clear": true,
+      "deadline_text": null,
+      "completion_evidence": null,
+      "evidence_text": "Starting on the July variance numbers, targeting Thursday morning for board prep as discussed.",
+      "confidence": 1.0,
+      "title": "Receive expense variance report from Divya",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_286a0d7fdfafba149a29dc7b",
+      "source_id": "demo-email-4-1",
+      "timestamp": "2026-09-21T14:30:00",
+      "sequence": 10,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-expense-delivery",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMMITMENT",
+      "kind": "DELIVERY",
+      "actor": "Arjun Malhotra",
+      "action": "Receive",
+      "object": "expense variance report",
+      "counterparty": "Arjun Malhotra",
+      "owner": "Divya Rao",
+      "ownership_clear": true,
+      "deadline_text": "Wednesday evening",
+      "completion_evidence": null,
+      "evidence_text": "Actually, can I get it by Wednesday evening instead? Want time to review before Thursday.",
+      "confidence": 1.0,
+      "title": "Receive expense variance report from Divya",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_4d3411edfb0dcf3943773957",
+      "source_id": "demo-email-4-2",
+      "timestamp": "2026-09-22T09:00:00",
+      "sequence": 11,
+      "normalized_deadline": "2026-09-23T20:00:00",
+      "deadline_precision": "PART_OF_DAY",
+      "deadline_assumption": "evening is represented by its configured window end (20:00); the source gave no exact time.",
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-expense-delivery",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMMITMENT",
+      "kind": "DELIVERY",
+      "actor": "Divya Rao",
+      "action": "Receive",
+      "object": "expense variance report",
+      "counterparty": "Arjun Malhotra",
+      "owner": "Divya Rao",
+      "ownership_clear": true,
+      "deadline_text": "Wednesday evening",
+      "completion_evidence": null,
+      "evidence_text": "Wednesday evening is tight but doable, I’ll prioritize it.",
+      "confidence": 1.0,
+      "title": "Receive expense variance report from Divya",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_3544ebe02a60f8f6b9e024c8",
+      "source_id": "demo-email-4-3",
+      "timestamp": "2026-09-22T09:40:00",
+      "sequence": 12,
+      "normalized_deadline": "2026-09-23T20:00:00",
+      "deadline_precision": "PART_OF_DAY",
+      "deadline_assumption": "evening is represented by its configured window end (20:00); the source gave no exact time.",
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-expense-delivery",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMPLETION",
+      "kind": "DELIVERY",
+      "actor": "Divya Rao",
+      "action": "Receive",
+      "object": "expense variance report",
+      "counterparty": "Arjun Malhotra",
+      "owner": "Divya Rao",
+      "ownership_clear": true,
+      "deadline_text": null,
+      "completion_evidence": "Report attached, sent as promised.",
+      "evidence_text": "Report attached, sent as promised.",
+      "confidence": 1.0,
+      "title": "Receive expense variance report from Divya",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_307cfcd7dfa059c2cab4aff6",
+      "source_id": "demo-email-4-4",
+      "timestamp": "2026-09-23T18:00:00",
+      "sequence": 13,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-expense-delivery",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "ACKNOWLEDGEMENT",
+      "kind": "DELIVERY",
+      "actor": "Arjun Malhotra",
+      "action": "Receive",
+      "object": "expense variance report",
+      "counterparty": "Arjun Malhotra",
+      "owner": "Divya Rao",
+      "ownership_clear": true,
+      "deadline_text": null,
+      "completion_evidence": "Got it, thank you — exactly what I needed before tomorrow.",
+      "evidence_text": "Got it, thank you — exactly what I needed before tomorrow.",
+      "confidence": 1.0,
+      "title": "Receive expense variance report from Divya",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_7e2914ef76654048a206d0a0",
+      "source_id": "demo-email-4-5",
+      "timestamp": "2026-09-23T18:10:00",
+      "sequence": 14,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-expense-delivery",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMMITMENT",
+      "kind": "REVIEW",
+      "actor": "Arjun Malhotra",
+      "action": "Review",
+      "object": "expense variance report",
+      "counterparty": "Divya Rao",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": "before Thursday",
+      "completion_evidence": null,
+      "evidence_text": "Want time to review before Thursday.",
+      "confidence": 1.0,
+      "title": "Review expense variance report before board prep",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_aa00c9c476c7d32179b2412e",
+      "source_id": "demo-email-4-2",
+      "timestamp": "2026-09-22T09:00:00",
+      "sequence": 15,
+      "normalized_deadline": "2026-09-24T00:00:00",
+      "deadline_precision": "DAY_BOUNDARY",
+      "deadline_assumption": "Before the named day is represented by the start of that day; no meeting time was inferred.",
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-expense-review",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMMITMENT",
+      "kind": "SCHEDULING",
+      "actor": "Priya Nair",
+      "action": "Reconfirm",
+      "object": "Meridian Logistics call",
+      "counterparty": "Priya Nair",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": null,
+      "completion_evidence": null,
+      "evidence_text": "Our scheduled call this week got bumped from our side — can you propose a new time? We’re flexible Tuesday–Thursday afternoons.",
+      "confidence": 1.0,
+      "title": "Reconfirm Meridian Logistics call",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_3a21e3a107267157cb44dfc7",
+      "source_id": "demo-email-3-1",
+      "timestamp": "2026-09-21T13:00:00",
+      "sequence": 16,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-meridian",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMMITMENT",
+      "kind": "SCHEDULING",
+      "actor": "Arjun Malhotra",
+      "action": "Reconfirm",
+      "object": "Meridian Logistics call",
+      "counterparty": "Priya Nair",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": null,
+      "completion_evidence": null,
+      "evidence_text": "Apologies for the delay — how about Wednesday 3:00 PM?",
+      "confidence": 1.0,
+      "title": "Reconfirm Meridian Logistics call",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_d5f6a4e2f8fcab9d6464d818",
+      "source_id": "demo-email-3-2",
+      "timestamp": "2026-09-22T15:00:00",
+      "sequence": 17,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": "2026-09-23T15:00:00",
+      "event_end": null,
+      "task_id": "demo-task-meridian",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "CONFIRMATION",
+      "kind": "SCHEDULING",
+      "actor": "Priya Nair",
+      "action": "Reconfirm",
+      "object": "Meridian Logistics call",
+      "counterparty": "Priya Nair",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": null,
+      "completion_evidence": "Wednesday 3 PM works on our end, confirmed.",
+      "evidence_text": "Wednesday 3 PM works on our end, confirmed.",
+      "confidence": 1.0,
+      "title": "Reconfirm Meridian Logistics call",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_47795f277ff3b85ce8dbf057",
+      "source_id": "demo-email-3-3",
+      "timestamp": "2026-09-22T17:45:00",
+      "sequence": 18,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": "2026-09-23T15:00:00",
+      "event_end": null,
+      "task_id": "demo-task-meridian",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMMITMENT",
+      "kind": "SCHEDULING",
+      "actor": "Priya Nair",
+      "action": "Reconfirm",
+      "object": "Meridian Logistics call",
+      "counterparty": "Priya Nair",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": null,
+      "completion_evidence": null,
+      "evidence_text": "Quick check — still on for 3 PM today?",
+      "confidence": 1.0,
+      "title": "Reconfirm Meridian Logistics call",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_967f5e99aec44d8854aecf6e",
+      "source_id": "demo-email-3-4",
+      "timestamp": "2026-09-23T13:30:00",
+      "sequence": 19,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": "2026-09-23T15:00:00",
+      "event_end": null,
+      "task_id": "demo-task-meridian",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "CONFIRMATION",
+      "kind": "SCHEDULING",
+      "actor": "Arjun Malhotra",
+      "action": "Reconfirm",
+      "object": "Meridian Logistics call",
+      "counterparty": "Priya Nair",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": null,
+      "completion_evidence": "Yes, confirmed, see you at 3.",
+      "evidence_text": "Yes, confirmed, see you at 3.",
+      "confidence": 1.0,
+      "title": "Reconfirm Meridian Logistics call",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_4f5d0cc85104cca5caaf56c6",
+      "source_id": "demo-email-3-5",
+      "timestamp": "2026-09-23T14:00:00",
+      "sequence": 20,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": "2026-09-23T15:00:00",
+      "event_end": null,
+      "task_id": "demo-task-meridian",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMMITMENT",
+      "kind": "DELIVERY",
+      "actor": "Neha Kapoor",
+      "action": "Receive",
+      "object": "Q3 campaign deck",
+      "counterparty": "Arjun Malhotra",
+      "owner": "Neha Kapoor",
+      "ownership_clear": true,
+      "deadline_text": null,
+      "completion_evidence": null,
+      "evidence_text": "Deck’s coming together, still targeting Wednesday for your review.",
+      "confidence": 1.0,
+      "title": "Receive Q3 campaign deck from Neha",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_9b89bb27c24c14663346e3f1",
+      "source_id": "demo-email-2-1",
+      "timestamp": "2026-09-21T11:00:00",
+      "sequence": 21,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-deck-delivery",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMMITMENT",
+      "kind": "DELIVERY",
+      "actor": "Neha Kapoor",
+      "action": "Receive",
+      "object": "Q3 campaign deck",
+      "counterparty": "Arjun Malhotra",
+      "owner": "Neha Kapoor",
+      "ownership_clear": true,
+      "deadline_text": null,
+      "completion_evidence": null,
+      "evidence_text": "Heads up — shifting the review to Thursday morning instead of Wednesday, need one more day on the data slides.",
+      "confidence": 1.0,
+      "title": "Receive Q3 campaign deck from Neha",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_e3ccbdc51f953590ba04c8d0",
+      "source_id": "demo-email-2-2",
+      "timestamp": "2026-09-22T16:15:00",
+      "sequence": 22,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-deck-delivery",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMPLETION",
+      "kind": "DELIVERY",
+      "actor": "Neha Kapoor",
+      "action": "Receive",
+      "object": "Q3 campaign deck",
+      "counterparty": "Arjun Malhotra",
+      "owner": "Neha Kapoor",
+      "ownership_clear": true,
+      "deadline_text": null,
+      "completion_evidence": "Deck is ready, attaching the draft ahead of our 9:30 review.",
+      "evidence_text": "Deck is ready, attaching the draft ahead of our 9:30 review.",
+      "confidence": 1.0,
+      "title": "Receive Q3 campaign deck from Neha",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_4aa9ba01ee45317ca366cce1",
+      "source_id": "demo-email-2-5",
+      "timestamp": "2026-09-24T08:00:00",
+      "sequence": 23,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-deck-delivery",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMMITMENT",
+      "kind": "REVIEW",
+      "actor": "Arjun Malhotra",
+      "action": "Review",
+      "object": "Q3 campaign deck",
+      "counterparty": "Neha Kapoor",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": null,
+      "completion_evidence": null,
+      "evidence_text": "Understood, Thursday morning works. What time exactly?",
+      "confidence": 1.0,
+      "title": "Review Q3 campaign deck with Neha",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_b8085429f113c87e5c7ed45f",
+      "source_id": "demo-email-2-3",
+      "timestamp": "2026-09-23T10:00:00",
+      "sequence": 24,
+      "normalized_deadline": null,
+      "deadline_precision": null,
+      "deadline_assumption": null,
+      "event_start": null,
+      "event_end": null,
+      "task_id": "demo-task-deck-review",
+      "created_at": "2026-09-25T09:00:00"
+    },
+    {
+      "type": "COMMITMENT",
+      "kind": "REVIEW",
+      "actor": "Neha Kapoor",
+      "action": "Review",
+      "object": "Q3 campaign deck",
+      "counterparty": "Neha Kapoor",
+      "owner": "Arjun Malhotra",
+      "ownership_clear": true,
+      "deadline_text": "9:30 AM Thursday",
+      "completion_evidence": null,
+      "evidence_text": "Let’s say 9:30 AM Thursday, before your board prep block.",
+      "confidence": 1.0,
+      "title": "Review Q3 campaign deck with Neha",
+      "event_start_text": null,
+      "event_end_text": null,
+      "participants": [],
+      "observation_id": "obs_902e18736be520d974a85c45",
+      "source_id": "demo-email-2-4",
+      "timestamp": "2026-09-23T10:20:00",
+      "sequence": 25,
+      "normalized_deadline": "2026-09-24T09:30:00",
+      "deadline_precision": "EXACT",
+      "deadline_assumption": null,
+      "event_start": "2026-09-24T09:30:00",
+      "event_end": null,
+      "task_id": "demo-task-deck-review",
+      "created_at": "2026-09-25T09:00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "demo-task-deck-delivery",
+      "canonical_title": "Receive Q3 campaign deck from Neha",
+      "owner": "Neha Kapoor",
+      "classification": "WAITING_ON_OTHERS",
+      "kind": "DELIVERY",
+      "action": "Receive",
+      "object": "Q3 campaign deck",
+      "counterparties": [
+        "Arjun Malhotra"
+      ],
+      "current_deadline": null,
+      "deadline_history": [],
+      "status": "RESOLVED",
+      "completion_evidence": [
+        {
+          "source_id": "demo-email-2-5",
+          "observation_id": "obs_4aa9ba01ee45317ca366cce1",
+          "evidence_text": "Deck is ready, attaching the draft ahead of our 9:30 review.",
+          "timestamp": "2026-09-24T08:00:00"
+        }
+      ],
+      "evidence_ids": [
+        "obs_9b89bb27c24c14663346e3f1",
+        "obs_e3ccbdc51f953590ba04c8d0",
+        "obs_4aa9ba01ee45317ca366cce1"
+      ],
+      "source_ids": [
+        "demo-email-2-1",
+        "demo-email-2-2",
+        "demo-email-2-5"
+      ],
+      "conflicts": [],
+      "decision_explanation": "Explicit completion, receipt acknowledgement, or scheduling confirmation is present for this action.",
+      "is_overdue": false,
+      "is_due_today": false,
+      "as_of": "2026-09-25T09:00:00",
+      "event_occurred": false,
+      "scheduled_events": [],
+      "resolved_at": "2026-09-24T08:00:00",
+      "evidence": [
+        {
+          "observation_id": "obs_9b89bb27c24c14663346e3f1",
+          "source_id": "demo-email-2-1",
+          "timestamp": "2026-09-21T11:00:00",
+          "author": "Neha Kapoor",
+          "type": "COMMITMENT",
+          "evidence_text": "Deck’s coming together, still targeting Wednesday for your review."
+        },
+        {
+          "observation_id": "obs_e3ccbdc51f953590ba04c8d0",
+          "source_id": "demo-email-2-2",
+          "timestamp": "2026-09-22T16:15:00",
+          "author": "Neha Kapoor",
+          "type": "COMMITMENT",
+          "evidence_text": "Heads up — shifting the review to Thursday morning instead of Wednesday, need one more day on the data slides."
+        },
+        {
+          "observation_id": "obs_4aa9ba01ee45317ca366cce1",
+          "source_id": "demo-email-2-5",
+          "timestamp": "2026-09-24T08:00:00",
+          "author": "Neha Kapoor",
+          "type": "COMPLETION",
+          "evidence_text": "Deck is ready, attaching the draft ahead of our 9:30 review."
+        }
+      ],
+      "created_at": "2026-09-25T09:00:00",
+      "updated_at": "2026-09-25T09:00:00"
+    },
+    {
+      "task_id": "demo-task-deck-review",
+      "canonical_title": "Review Q3 campaign deck with Neha",
+      "owner": "Arjun Malhotra",
+      "classification": "MY_ACTION",
+      "kind": "REVIEW",
+      "action": "Review",
+      "object": "Q3 campaign deck",
+      "counterparties": [
+        "Neha Kapoor"
+      ],
+      "current_deadline": "2026-09-24T09:30:00",
+      "deadline_history": [
+        {
+          "deadline_text": "9:30 AM Thursday",
+          "normalized_deadline": "2026-09-24T09:30:00",
+          "precision": "EXACT",
+          "assumption": null,
+          "source_id": "demo-email-2-4",
+          "observation_id": "obs_902e18736be520d974a85c45",
+          "timestamp": "2026-09-23T10:20:00",
+          "accepted": true
+        }
+      ],
+      "status": "COMPLETION_UNVERIFIED",
+      "completion_evidence": [],
+      "evidence_ids": [
+        "obs_b8085429f113c87e5c7ed45f",
+        "obs_902e18736be520d974a85c45"
+      ],
+      "source_ids": [
+        "demo-email-2-3",
+        "demo-email-2-4"
+      ],
+      "conflicts": [],
+      "decision_explanation": "The scheduled time passed, but no evidence confirms the event or review actually occurred.",
+      "is_overdue": false,
+      "is_due_today": false,
+      "as_of": "2026-09-25T09:00:00",
+      "event_occurred": false,
+      "scheduled_events": [
+        {
+          "start": "2026-09-24T09:30:00",
+          "end": null,
+          "source_id": "demo-email-2-4"
+        }
+      ],
+      "resolved_at": null,
+      "evidence": [
+        {
+          "observation_id": "obs_b8085429f113c87e5c7ed45f",
+          "source_id": "demo-email-2-3",
+          "timestamp": "2026-09-23T10:00:00",
+          "author": "Arjun Malhotra",
+          "type": "COMMITMENT",
+          "evidence_text": "Understood, Thursday morning works. What time exactly?"
+        },
+        {
+          "observation_id": "obs_902e18736be520d974a85c45",
+          "source_id": "demo-email-2-4",
+          "timestamp": "2026-09-23T10:20:00",
+          "author": "Neha Kapoor",
+          "type": "COMMITMENT",
+          "evidence_text": "Let’s say 9:30 AM Thursday, before your board prep block."
+        }
+      ],
+      "created_at": "2026-09-25T09:00:00",
+      "updated_at": "2026-09-25T09:00:00"
+    },
+    {
+      "task_id": "demo-task-expense-delivery",
+      "canonical_title": "Receive expense variance report from Divya",
+      "owner": "Divya Rao",
+      "classification": "WAITING_ON_OTHERS",
+      "kind": "DELIVERY",
+      "action": "Receive",
+      "object": "expense variance report",
+      "counterparties": [
+        "Arjun Malhotra"
+      ],
+      "current_deadline": "2026-09-23T20:00:00",
+      "deadline_history": [
+        {
+          "deadline_text": "Wednesday evening",
+          "normalized_deadline": "2026-09-23T20:00:00",
+          "precision": "PART_OF_DAY",
+          "assumption": "evening is represented by its configured window end (20:00); the source gave no exact time.",
+          "source_id": "demo-email-4-2",
+          "observation_id": "obs_4d3411edfb0dcf3943773957",
+          "timestamp": "2026-09-22T09:00:00",
+          "accepted": true
+        },
+        {
+          "deadline_text": "Wednesday evening",
+          "normalized_deadline": "2026-09-23T20:00:00",
+          "precision": "PART_OF_DAY",
+          "assumption": "evening is represented by its configured window end (20:00); the source gave no exact time.",
+          "source_id": "demo-email-4-3",
+          "observation_id": "obs_3544ebe02a60f8f6b9e024c8",
+          "timestamp": "2026-09-22T09:40:00",
+          "accepted": true
+        }
+      ],
+      "status": "RESOLVED",
+      "completion_evidence": [
+        {
+          "source_id": "demo-email-4-4",
+          "observation_id": "obs_307cfcd7dfa059c2cab4aff6",
+          "evidence_text": "Report attached, sent as promised.",
+          "timestamp": "2026-09-23T18:00:00"
+        },
+        {
+          "source_id": "demo-email-4-5",
+          "observation_id": "obs_7e2914ef76654048a206d0a0",
+          "evidence_text": "Got it, thank you — exactly what I needed before tomorrow.",
+          "timestamp": "2026-09-23T18:10:00"
+        }
+      ],
+      "evidence_ids": [
+        "obs_286a0d7fdfafba149a29dc7b",
+        "obs_4d3411edfb0dcf3943773957",
+        "obs_3544ebe02a60f8f6b9e024c8",
+        "obs_307cfcd7dfa059c2cab4aff6",
+        "obs_7e2914ef76654048a206d0a0"
+      ],
+      "source_ids": [
+        "demo-email-4-1",
+        "demo-email-4-2",
+        "demo-email-4-3",
+        "demo-email-4-4",
+        "demo-email-4-5"
+      ],
+      "conflicts": [],
+      "decision_explanation": "Explicit completion, receipt acknowledgement, or scheduling confirmation is present for this action.",
+      "is_overdue": false,
+      "is_due_today": false,
+      "as_of": "2026-09-25T09:00:00",
+      "event_occurred": false,
+      "scheduled_events": [],
+      "resolved_at": "2026-09-23T18:10:00",
+      "evidence": [
+        {
+          "observation_id": "obs_286a0d7fdfafba149a29dc7b",
+          "source_id": "demo-email-4-1",
+          "timestamp": "2026-09-21T14:30:00",
+          "author": "Divya Rao",
+          "type": "COMMITMENT",
+          "evidence_text": "Starting on the July variance numbers, targeting Thursday morning for board prep as discussed."
+        },
+        {
+          "observation_id": "obs_4d3411edfb0dcf3943773957",
+          "source_id": "demo-email-4-2",
+          "timestamp": "2026-09-22T09:00:00",
+          "author": "Arjun Malhotra",
+          "type": "COMMITMENT",
+          "evidence_text": "Actually, can I get it by Wednesday evening instead? Want time to review before Thursday."
+        },
+        {
+          "observation_id": "obs_3544ebe02a60f8f6b9e024c8",
+          "source_id": "demo-email-4-3",
+          "timestamp": "2026-09-22T09:40:00",
+          "author": "Divya Rao",
+          "type": "COMMITMENT",
+          "evidence_text": "Wednesday evening is tight but doable, I’ll prioritize it."
+        },
+        {
+          "observation_id": "obs_307cfcd7dfa059c2cab4aff6",
+          "source_id": "demo-email-4-4",
+          "timestamp": "2026-09-23T18:00:00",
+          "author": "Divya Rao",
+          "type": "COMPLETION",
+          "evidence_text": "Report attached, sent as promised."
+        },
+        {
+          "observation_id": "obs_7e2914ef76654048a206d0a0",
+          "source_id": "demo-email-4-5",
+          "timestamp": "2026-09-23T18:10:00",
+          "author": "Arjun Malhotra",
+          "type": "ACKNOWLEDGEMENT",
+          "evidence_text": "Got it, thank you — exactly what I needed before tomorrow."
+        }
+      ],
+      "created_at": "2026-09-25T09:00:00",
+      "updated_at": "2026-09-25T09:00:00"
+    },
+    {
+      "task_id": "demo-task-expense-review",
+      "canonical_title": "Review expense variance report before board prep",
+      "owner": "Arjun Malhotra",
+      "classification": "MY_ACTION",
+      "kind": "REVIEW",
+      "action": "Review",
+      "object": "expense variance report",
+      "counterparties": [
+        "Divya Rao"
+      ],
+      "current_deadline": "2026-09-24T00:00:00",
+      "deadline_history": [
+        {
+          "deadline_text": "before Thursday",
+          "normalized_deadline": "2026-09-24T00:00:00",
+          "precision": "DAY_BOUNDARY",
+          "assumption": "Before the named day is represented by the start of that day; no meeting time was inferred.",
+          "source_id": "demo-email-4-2",
+          "observation_id": "obs_aa00c9c476c7d32179b2412e",
+          "timestamp": "2026-09-22T09:00:00",
+          "accepted": true
+        }
+      ],
+      "status": "COMPLETION_UNVERIFIED",
+      "completion_evidence": [],
+      "evidence_ids": [
+        "obs_aa00c9c476c7d32179b2412e"
+      ],
+      "source_ids": [
+        "demo-email-4-2"
+      ],
+      "conflicts": [],
+      "decision_explanation": "The scheduled time passed, but no evidence confirms the event or review actually occurred.",
+      "is_overdue": false,
+      "is_due_today": false,
+      "as_of": "2026-09-25T09:00:00",
+      "event_occurred": false,
+      "scheduled_events": [],
+      "resolved_at": null,
+      "evidence": [
+        {
+          "observation_id": "obs_aa00c9c476c7d32179b2412e",
+          "source_id": "demo-email-4-2",
+          "timestamp": "2026-09-22T09:00:00",
+          "author": "Arjun Malhotra",
+          "type": "COMMITMENT",
+          "evidence_text": "Want time to review before Thursday."
+        }
+      ],
+      "created_at": "2026-09-25T09:00:00",
+      "updated_at": "2026-09-25T09:00:00"
+    },
+    {
+      "task_id": "demo-task-lease",
+      "canonical_title": "Mumbai office lease renewal signature",
+      "owner": null,
+      "classification": "OWNERSHIP_UNCLEAR",
+      "kind": "APPROVAL",
+      "action": "Mumbai",
+      "object": "Mumbai office lease renewal",
+      "counterparties": [],
+      "current_deadline": "2026-09-25T23:59:59",
+      "deadline_history": [
+        {
+          "deadline_text": "Friday, 25 September",
+          "normalized_deadline": "2026-09-25T23:59:59",
+          "precision": "DAY",
+          "assumption": "Date-only / end-of-day deadline represented as 23:59:59, not an asserted business closing time.",
+          "source_id": "demo-email-5-1",
+          "observation_id": "obs_2192742b9f351af08453bb94",
+          "timestamp": "2026-09-21T10:15:00",
+          "accepted": true
+        },
+        {
+          "deadline_text": "Friday, 25 September, end of day",
+          "normalized_deadline": "2026-09-25T23:59:59",
+          "precision": "DAY",
+          "assumption": "Date-only / end-of-day deadline represented as 23:59:59, not an asserted business closing time.",
+          "source_id": "demo-email-5-4",
+          "observation_id": "obs_606c30f2646df02e7a3a0428",
+          "timestamp": "2026-09-24T16:00:00",
+          "accepted": true
+        }
+      ],
+      "status": "OWNERSHIP_UNCLEAR",
+      "completion_evidence": [],
+      "evidence_ids": [
+        "obs_2192742b9f351af08453bb94",
+        "obs_2353e6a8ab01f67afd01c233",
+        "obs_0c3796208a979af2acd90ac5",
+        "obs_606c30f2646df02e7a3a0428",
+        "obs_b9d0babfd5152340478ab9dd"
+      ],
+      "source_ids": [
+        "demo-email-5-1",
+        "demo-email-5-2",
+        "demo-email-5-3",
+        "demo-email-5-4",
+        "demo-email-5-5"
+      ],
+      "conflicts": [],
+      "decision_explanation": "No confirmed owner. Facilities was only suggested, not confirmed.",
+      "is_overdue": false,
+      "is_due_today": true,
+      "as_of": "2026-09-25T09:00:00",
+      "event_occurred": false,
+      "scheduled_events": [],
+      "resolved_at": null,
+      "evidence": [
+        {
+          "observation_id": "obs_2192742b9f351af08453bb94",
+          "source_id": "demo-email-5-1",
+          "timestamp": "2026-09-21T10:15:00",
+          "author": "Facilities",
+          "type": "UNCERTAINTY",
+          "evidence_text": "Reminder: the Mumbai office lease renewal requires an authorized signature by Friday, 25 September."
+        },
+        {
+          "observation_id": "obs_2353e6a8ab01f67afd01c233",
+          "source_id": "demo-email-5-2",
+          "timestamp": "2026-09-22T11:00:00",
+          "author": "Raghav Sethi",
+          "type": "UNCERTAINTY",
+          "evidence_text": "Following up from the sync — has anyone confirmed who’s signing off on the Mumbai renewal? Don’t think it’s been assigned."
+        },
+        {
+          "observation_id": "obs_0c3796208a979af2acd90ac5",
+          "source_id": "demo-email-5-3",
+          "timestamp": "2026-09-23T09:30:00",
+          "author": "Divya Rao",
+          "type": "UNCERTAINTY",
+          "evidence_text": "Not on my end — I believe this typically sits with Facilities directly, not us."
+        },
+        {
+          "observation_id": "obs_606c30f2646df02e7a3a0428",
+          "source_id": "demo-email-5-4",
+          "timestamp": "2026-09-24T16:00:00",
+          "author": "Facilities",
+          "type": "UNCERTAINTY",
+          "evidence_text": "Second reminder: signature is still pending. Deadline is Friday, 25 September, end of day."
+        },
+        {
+          "observation_id": "obs_b9d0babfd5152340478ab9dd",
+          "source_id": "demo-email-5-5",
+          "timestamp": "2026-09-24T16:45:00",
+          "author": "Raghav Sethi",
+          "type": "UNCERTAINTY",
+          "evidence_text": "This is now one day out and still unowned — can you confirm who’s handling it?"
+        }
+      ],
+      "created_at": "2026-09-25T09:00:00",
+      "updated_at": "2026-09-25T09:00:00",
+      "ownership_note": "Facilities was only suggested, not confirmed."
+    },
+    {
+      "task_id": "demo-task-meridian",
+      "canonical_title": "Reconfirm Meridian Logistics call",
+      "owner": "Arjun Malhotra",
+      "classification": "MY_ACTION",
+      "kind": "SCHEDULING",
+      "action": "Reconfirm",
+      "object": "Meridian Logistics call",
+      "counterparties": [
+        "Priya Nair"
+      ],
+      "current_deadline": null,
+      "deadline_history": [],
+      "status": "RESOLVED",
+      "completion_evidence": [
+        {
+          "source_id": "demo-email-3-3",
+          "observation_id": "obs_47795f277ff3b85ce8dbf057",
+          "evidence_text": "Wednesday 3 PM works on our end, confirmed.",
+          "timestamp": "2026-09-22T17:45:00"
+        },
+        {
+          "source_id": "demo-email-3-5",
+          "observation_id": "obs_4f5d0cc85104cca5caaf56c6",
+          "evidence_text": "Yes, confirmed, see you at 3.",
+          "timestamp": "2026-09-23T14:00:00"
+        }
+      ],
+      "evidence_ids": [
+        "obs_3a21e3a107267157cb44dfc7",
+        "obs_d5f6a4e2f8fcab9d6464d818",
+        "obs_47795f277ff3b85ce8dbf057",
+        "obs_967f5e99aec44d8854aecf6e",
+        "obs_4f5d0cc85104cca5caaf56c6"
+      ],
+      "source_ids": [
+        "demo-email-3-1",
+        "demo-email-3-2",
+        "demo-email-3-3",
+        "demo-email-3-4",
+        "demo-email-3-5"
+      ],
+      "conflicts": [],
+      "decision_explanation": "Explicit completion, receipt acknowledgement, or scheduling confirmation is present for this action.",
+      "is_overdue": false,
+      "is_due_today": false,
+      "as_of": "2026-09-25T09:00:00",
+      "event_occurred": false,
+      "scheduled_events": [
+        {
+          "start": "2026-09-23T15:00:00",
+          "end": null,
+          "source_id": "demo-email-3-2"
+        },
+        {
+          "start": "2026-09-23T15:00:00",
+          "end": null,
+          "source_id": "demo-email-3-3"
+        },
+        {
+          "start": "2026-09-23T15:00:00",
+          "end": null,
+          "source_id": "demo-email-3-4"
+        },
+        {
+          "start": "2026-09-23T15:00:00",
+          "end": null,
+          "source_id": "demo-email-3-5"
+        }
+      ],
+      "resolved_at": "2026-09-23T14:00:00",
+      "evidence": [
+        {
+          "observation_id": "obs_3a21e3a107267157cb44dfc7",
+          "source_id": "demo-email-3-1",
+          "timestamp": "2026-09-21T13:00:00",
+          "author": "Priya Nair",
+          "type": "COMMITMENT",
+          "evidence_text": "Our scheduled call this week got bumped from our side — can you propose a new time? We’re flexible Tuesday–Thursday afternoons."
+        },
+        {
+          "observation_id": "obs_d5f6a4e2f8fcab9d6464d818",
+          "source_id": "demo-email-3-2",
+          "timestamp": "2026-09-22T15:00:00",
+          "author": "Arjun Malhotra",
+          "type": "COMMITMENT",
+          "evidence_text": "Apologies for the delay — how about Wednesday 3:00 PM?"
+        },
+        {
+          "observation_id": "obs_47795f277ff3b85ce8dbf057",
+          "source_id": "demo-email-3-3",
+          "timestamp": "2026-09-22T17:45:00",
+          "author": "Priya Nair",
+          "type": "CONFIRMATION",
+          "evidence_text": "Wednesday 3 PM works on our end, confirmed."
+        },
+        {
+          "observation_id": "obs_967f5e99aec44d8854aecf6e",
+          "source_id": "demo-email-3-4",
+          "timestamp": "2026-09-23T13:30:00",
+          "author": "Priya Nair",
+          "type": "COMMITMENT",
+          "evidence_text": "Quick check — still on for 3 PM today?"
+        },
+        {
+          "observation_id": "obs_4f5d0cc85104cca5caaf56c6",
+          "source_id": "demo-email-3-5",
+          "timestamp": "2026-09-23T14:00:00",
+          "author": "Arjun Malhotra",
+          "type": "CONFIRMATION",
+          "evidence_text": "Yes, confirmed, see you at 3."
+        }
+      ],
+      "created_at": "2026-09-25T09:00:00",
+      "updated_at": "2026-09-25T09:00:00"
+    },
+    {
+      "task_id": "demo-task-vendor",
+      "canonical_title": "Send updated vendor list to Raghav",
+      "owner": "Arjun Malhotra",
+      "classification": "MY_ACTION",
+      "kind": "DELIVERY",
+      "action": "Send",
+      "object": "updated vendor list",
+      "counterparties": [
+        "Raghav Sethi"
+      ],
+      "current_deadline": "2026-09-23T12:00:00",
+      "deadline_history": [
+        {
+          "deadline_text": "today",
+          "normalized_deadline": "2026-09-21T23:59:59",
+          "precision": "DAY",
+          "assumption": "Date-only / end-of-day deadline represented as 23:59:59, not an asserted business closing time.",
+          "source_id": "demo-email-1-1",
+          "observation_id": "obs_892ebc1a9a28cc5603410dbd",
+          "timestamp": "2026-09-21T09:50:00",
+          "accepted": true
+        },
+        {
+          "deadline_text": "tomorrow morning",
+          "normalized_deadline": "2026-09-22T12:00:00",
+          "precision": "PART_OF_DAY",
+          "assumption": "morning is represented by its configured window end (12:00); the source gave no exact time.",
+          "source_id": "demo-email-1-2",
+          "observation_id": "obs_bf2e3f3904c4950f7c2935b9",
+          "timestamp": "2026-09-21T17:40:00",
+          "accepted": true
+        },
+        {
+          "deadline_text": "today",
+          "normalized_deadline": "2026-09-22T23:59:59",
+          "precision": "DAY",
+          "assumption": "Date-only / end-of-day deadline represented as 23:59:59, not an asserted business closing time.",
+          "source_id": "demo-email-1-3",
+          "observation_id": "obs_69fa15472653ea6a53b30dec",
+          "timestamp": "2026-09-22T09:15:00",
+          "accepted": false
+        },
+        {
+          "deadline_text": "tomorrow (Wednesday) morning",
+          "normalized_deadline": "2026-09-23T12:00:00",
+          "precision": "PART_OF_DAY",
+          "assumption": "morning is represented by its configured window end (12:00); the source gave no exact time.",
+          "source_id": "demo-email-1-4",
+          "observation_id": "obs_e6ff2a5438042c8ffc3505cc",
+          "timestamp": "2026-09-22T18:30:00",
+          "accepted": true
+        },
+        {
+          "deadline_text": "this morning",
+          "normalized_deadline": "2026-09-23T12:00:00",
+          "precision": "PART_OF_DAY",
+          "assumption": "morning is represented by its configured window end (12:00); the source gave no exact time.",
+          "source_id": "demo-email-1-5",
+          "observation_id": "obs_a9687f1e17b905d933419aa2",
+          "timestamp": "2026-09-23T08:45:00",
+          "accepted": false
+        }
+      ],
+      "status": "OVERDUE",
+      "completion_evidence": [],
+      "evidence_ids": [
+        "obs_892ebc1a9a28cc5603410dbd",
+        "obs_bf2e3f3904c4950f7c2935b9",
+        "obs_69fa15472653ea6a53b30dec",
+        "obs_e6ff2a5438042c8ffc3505cc",
+        "obs_a9687f1e17b905d933419aa2"
+      ],
+      "source_ids": [
+        "demo-email-1-1",
+        "demo-email-1-2",
+        "demo-email-1-3",
+        "demo-email-1-4",
+        "demo-email-1-5"
+      ],
+      "conflicts": [],
+      "decision_explanation": "The supported deadline is before the reference time and completion is not established.",
+      "is_overdue": true,
+      "is_due_today": false,
+      "as_of": "2026-09-25T09:00:00",
+      "event_occurred": false,
+      "scheduled_events": [],
+      "resolved_at": null,
+      "evidence": [
+        {
+          "observation_id": "obs_892ebc1a9a28cc5603410dbd",
+          "source_id": "demo-email-1-1",
+          "timestamp": "2026-09-21T09:50:00",
+          "author": "Raghav Sethi",
+          "type": "REMINDER",
+          "evidence_text": "Following up from the sync — can you send the updated vendor list today?"
+        },
+        {
+          "observation_id": "obs_bf2e3f3904c4950f7c2935b9",
+          "source_id": "demo-email-1-2",
+          "timestamp": "2026-09-21T17:40:00",
+          "author": "Arjun Malhotra",
+          "type": "DEADLINE_UPDATE",
+          "evidence_text": "Running behind, will send first thing tomorrow morning instead."
+        },
+        {
+          "observation_id": "obs_69fa15472653ea6a53b30dec",
+          "source_id": "demo-email-1-3",
+          "timestamp": "2026-09-22T09:15:00",
+          "author": "Raghav Sethi",
+          "type": "REMINDER",
+          "evidence_text": "No worries, whenever you get a chance today works."
+        },
+        {
+          "observation_id": "obs_e6ff2a5438042c8ffc3505cc",
+          "source_id": "demo-email-1-4",
+          "timestamp": "2026-09-22T18:30:00",
+          "author": "Arjun Malhotra",
+          "type": "DEADLINE_UPDATE",
+          "evidence_text": "Sorry, got pulled into board prep — will send by tomorrow (Wednesday) morning for sure."
+        },
+        {
+          "observation_id": "obs_a9687f1e17b905d933419aa2",
+          "source_id": "demo-email-1-5",
+          "timestamp": "2026-09-23T08:45:00",
+          "author": "Raghav Sethi",
+          "type": "REMINDER",
+          "evidence_text": "Just checking — still good for this morning?"
+        }
+      ],
+      "created_at": "2026-09-25T09:00:00",
+      "updated_at": "2026-09-25T09:00:00"
+    }
+  ],
+  "conflicts": [
+    {
+      "event_a": {
+        "title": "1:1 with Neha",
+        "start": "2026-09-21T14:00:00",
+        "end": "2026-09-21T14:30:00",
+        "participants": [
+          "Arjun Malhotra",
+          "Neha Kapoor"
+        ],
+        "evidence_text": "2026-09-21 14:00-14:30 1:1 with Neha",
+        "source_id": "demo-calendar-1"
+      },
+      "event_b": {
+        "title": "1:1 with Arjun",
+        "start": "2026-09-21T14:00:00",
+        "end": "2026-09-21T14:30:00",
+        "participants": [
+          "Neha Kapoor",
+          "Arjun Malhotra"
+        ],
+        "evidence_text": "2026-09-21 14:00-14:30 1:1 with Arjun",
+        "source_id": "demo-calendar-2"
+      },
+      "overlap_start": "2026-09-21T14:00:00",
+      "overlap_end": "2026-09-21T14:30:00",
+      "overlap_minutes": 30.0,
+      "source_ids": [
+        "demo-calendar-1",
+        "demo-calendar-2"
+      ],
+      "decision_explanation": "Scheduled intervals overlap. This does not prove either event occurred."
+    },
+    {
+      "event_a": {
+        "title": "Board Prep Session",
+        "start": "2026-09-24T09:00:00",
+        "end": "2026-09-24T10:00:00",
+        "participants": [
+          "Arjun Malhotra"
+        ],
+        "evidence_text": "2026-09-24 09:00-10:00 Board Prep Session",
+        "source_id": "demo-calendar-1"
+      },
+      "event_b": {
+        "title": "Deck Review with Arjun",
+        "start": "2026-09-24T09:30:00",
+        "end": "2026-09-24T10:00:00",
+        "participants": [
+          "Neha Kapoor",
+          "Arjun Malhotra"
+        ],
+        "evidence_text": "2026-09-24 09:30-10:00 Deck Review with Arjun",
+        "source_id": "demo-calendar-2"
+      },
+      "overlap_start": "2026-09-24T09:30:00",
+      "overlap_end": "2026-09-24T10:00:00",
+      "overlap_minutes": 30.0,
+      "source_ids": [
+        "demo-calendar-1",
+        "demo-calendar-2"
+      ],
+      "decision_explanation": "Scheduled intervals overlap. This does not prove either event occurred."
+    }
+  ]
+}
