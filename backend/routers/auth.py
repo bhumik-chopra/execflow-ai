@@ -1,4 +1,4 @@
-﻿"""Single-account authentication with opaque, expiring server-side sessions."""
+"""Single-account authentication with opaque, expiring server-side sessions."""
 import hashlib
 import hmac
 import secrets
@@ -16,8 +16,18 @@ sessions: dict[str, float] = {}
 def session_key(token):
     return hashlib.sha256(token.encode()).hexdigest()
 
+def request_token(request: Request):
+    authorization = request.headers.get('authorization', '')
+    if authorization.lower().startswith('bearer '):
+        return authorization[7:].strip()
+    return request.cookies.get(COOKIE, '')
+
+def cookie_options(request: Request):
+    secure = request.url.scheme == 'https' or request.headers.get('x-forwarded-proto') == 'https'
+    return {'secure': secure, 'samesite': 'none' if secure else 'lax'}
+
 def authenticated(request: Request):
-    token = request.cookies.get(COOKIE, '')
+    token = request_token(request)
     if not token:
         return False
     key = session_key(token)
@@ -42,15 +52,15 @@ def login(body: LoginInput, request: Request, response: Response):
     for key, expiry in list(sessions.items()):
         if expiry <= now:
             sessions.pop(key, None)
-    old_token = request.cookies.get(COOKIE)
+    old_token = request_token(request)
     if old_token:
         sessions.pop(session_key(old_token), None)
     token = secrets.token_urlsafe(32)
     sessions[session_key(token)] = now + LIFETIME
     response.set_cookie(COOKIE, token, max_age=LIFETIME, httponly=True,
-        secure=request.url.scheme == 'https', samesite='strict', path='/')
+        path='/', **cookie_options(request))
     response.headers['Cache-Control'] = 'no-store'
-    return USER
+    return {**USER, 'access_token': token, 'token_type': 'bearer'}
 
 @router.get('/me')
 def me(request: Request, response: Response):
@@ -61,7 +71,7 @@ def me(request: Request, response: Response):
 
 @router.post('/logout')
 def logout(request: Request, response: Response):
-    token = request.cookies.get(COOKIE, '')
+    token = request_token(request)
     sessions.pop(session_key(token), None)
-    response.delete_cookie(COOKIE, path='/', httponly=True, samesite='strict')
+    response.delete_cookie(COOKIE, path='/', httponly=True, **cookie_options(request))
     return {'ok': True}

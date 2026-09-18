@@ -11,6 +11,7 @@ from config import get_settings
 router = APIRouter(tags=["system"])
 
 
+@router.get("/api/health", response_model=HealthResponse)
 @router.get("/health", response_model=HealthResponse)
 async def health(request: Request) -> HealthResponse:
     mongodb_ok, groq_ok = await asyncio.gather(
@@ -24,6 +25,7 @@ async def health(request: Request) -> HealthResponse:
     )
 
 
+@router.get("/api/context", response_model=ContextResponse)
 @router.get("/context", response_model=ContextResponse)
 def context(
     as_of: datetime = Query(default_factory=datetime.now, description="Reference time; defaults to the current server local time."),

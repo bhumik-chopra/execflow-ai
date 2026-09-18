@@ -18,6 +18,7 @@ class Settings(BaseSettings):
     mongodb_db: str = Field(default="execflow", min_length=1)
     groq_api_key: SecretStr = SecretStr("")
     groq_model: str = Field(default="llama-3.3-70b-versatile", min_length=1)
+    frontend_url: str = "https://execflow-ai-1.onrender.com"
     executive_user_name: str = "Arjun Malhotra"
     executive_user_role: str = "VP Sales"
 

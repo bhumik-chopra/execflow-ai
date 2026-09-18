@@ -1,7 +1,7 @@
-﻿import { useEffect, useState, type FormEvent } from 'react'
+import { useEffect, useState, type FormEvent } from 'react'
 import { ArrowRight, Eye, EyeOff, Mail, LockKeyhole, Check, ArrowUpRight, Sparkles } from 'lucide-react'
 import App from '../App'
-import { api } from '../services/api'
+import { api, saveSession, clearSession } from '../services/api'
 import './login.css'
 
 export default function AuthGate() {
@@ -20,12 +20,12 @@ export default function AuthGate() {
   }, [])
   async function signIn(e: FormEvent) {
     e.preventDefault(); setBusy(true); setError('')
-    try { await api('/auth/login', { email: email.trim(), password }); setPassword(''); setStatus('signed-in') }
+    try { const user = await api<{ access_token: string }>('/auth/login', { email: email.trim(), password }); saveSession(user.access_token); setPassword(''); setStatus('signed-in') }
     catch (e) { setError((e as Error).message) }
     finally { setBusy(false) }
   }
   async function signOut() {
-    try { await api('/auth/logout', {}); setEmail(''); setPassword(''); setError(''); setStatus('signed-out'); window.location.hash = 'daily-brief' }
+    try { await api('/auth/logout', {}); clearSession(); setEmail(''); setPassword(''); setError(''); setStatus('signed-out'); window.location.hash = 'daily-brief' }
     catch { setError('Could not sign out. Please try again.') }
   }
   if (status === 'checking') return <div className="auth-loading"><span className="brand-mark">E</span><p>Opening your workspace…</p></div>

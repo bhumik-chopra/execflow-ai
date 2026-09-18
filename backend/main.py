@@ -34,14 +34,6 @@ app = FastAPI(
     version="0.1.0",
     lifespan=lifespan,
 )
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://execflow-ai-1.onrender.com"],
-    allow_origin_regex=r"https://.*\.onrender\.com$",
-    allow_credentials=True,
-    allow_methods=["GET", "POST", "OPTIONS"],
-    allow_headers=["Content-Type", "Authorization", "Accept"],
-)
 app.include_router(router)
 app.include_router(api_router)
 app.include_router(auth_router)
@@ -50,8 +42,11 @@ app.include_router(auth_router)
 @app.middleware("http")
 async def require_session(request: Request, call_next):
     path = request.url.path.rstrip("/")
+    origin = request.headers.get("origin")
+    if request.method not in {"GET", "HEAD", "OPTIONS"} and origin and origin not in allowed_origins:
+        return JSONResponse(status_code=403, content={"detail": "This origin is not allowed."})
     protected = path.startswith("/api/") or path == "/context"
-    public = path in {"/api/auth/login", "/api/auth/logout"}
+    public = path in {"/api/auth/login", "/api/auth/logout", "/api/health"}
     if protected and not public and request.method != "OPTIONS" and not authenticated(request):
         return JSONResponse(status_code=401, content={"detail": "Please sign in to continue."})
     response = await call_next(request)
@@ -85,3 +80,17 @@ async def llm_error_handler(
     request: Request, exc: LLMError
 ) -> JSONResponse:
     return JSONResponse(status_code=exc.status_code, content={"detail": str(exc)})
+
+
+# Register last so CORS also wraps early authentication/error responses.
+allowed_origins = list(dict.fromkeys([
+    "http://localhost:5173", "http://127.0.0.1:5173",
+    get_settings().frontend_url.rstrip("/"),
+]))
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=allowed_origins,
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type", "Authorization", "Accept"],
+)
