@@ -1,0 +1,16 @@
+Open two PowerShell terminals and run these commands.
+
+TERMINAL 1 - BACKEND
+cd "C:\codes\assignment 1 bhumik\execflow-ai\backend"
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m seed.seed
+.\.venv\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000
+
+TERMINAL 2 - FRONTEND
+cd "C:\codes\assignment 1 bhumik\execflow-ai\frontend"
+npm install
+npm run dev
+
+Open http://localhost:5173 in your browser.
+Keep both terminals running. Press Ctrl+C in each terminal to stop.
+If the project is already running, use the browser address above.
