@@ -1,4 +1,4 @@
-Open two PowerShell terminals and run these commands.
+Okay, I'm going to get a different answer. Okay, here we go.on Open two PowerShell terminals and run these commands.
 
 TERMINAL 1 - BACKEND
 cd "C:\codes\assignment 1 bhumik\execflow-ai\backend"

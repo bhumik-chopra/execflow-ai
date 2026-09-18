@@ -8,6 +8,7 @@ export interface Brief { metrics: Record<string, number>; sections: Record<strin
 export async function api<T>(path: string, body?: unknown, signal?: AbortSignal): Promise<T> {
   const response = await fetch(`/api${path}`, { method: body === undefined ? 'GET' : 'POST', headers: body === undefined ? undefined : { 'Content-Type': 'application/json' }, body: body === undefined ? undefined : JSON.stringify(body), signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(60000)]) : AbortSignal.timeout(60000) })
   const data = await response.json()
+  if (response.status === 401 && !path.startsWith('/auth/')) window.dispatchEvent(new Event('execflow:session-expired'))
   if (!response.ok) throw new Error(typeof data.detail === 'string' ? data.detail : 'Unable to complete the request. Check the input and try again.')
   return data as T
 }

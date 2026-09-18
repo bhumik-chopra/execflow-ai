@@ -11,6 +11,7 @@ from services.llm import LLMError, LLMService
 from services.repository import Repository
 from services.engine import Engine, IngestionError, SourceConflict
 from routers.api import router as api_router
+from routers.auth import router as auth_router, authenticated
 from pymongo.errors import PyMongoError
 
 
@@ -42,6 +43,20 @@ app.add_middleware(
 )
 app.include_router(router)
 app.include_router(api_router)
+app.include_router(auth_router)
+
+
+@app.middleware("http")
+async def require_session(request: Request, call_next):
+    path = request.url.path.rstrip("/")
+    protected = path.startswith("/api/") or path == "/context"
+    public = path in {"/api/auth/login", "/api/auth/logout"}
+    if protected and not public and request.method != "OPTIONS" and not authenticated(request):
+        return JSONResponse(status_code=401, content={"detail": "Please sign in to continue."})
+    response = await call_next(request)
+    if protected:
+        response.headers["Cache-Control"] = "no-store"
+    return response
 
 
 @app.exception_handler(PyMongoError)
