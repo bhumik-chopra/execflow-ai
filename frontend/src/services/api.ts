@@ -6,8 +6,9 @@ export interface Source { source_id: string; source_type: string; timestamp: str
 export interface Conflict { event_a: { title: string }; event_b: { title: string }; overlap_start: string; overlap_end: string; overlap_minutes: number }
 export interface Brief { metrics: Record<string, number>; sections: Record<string, Task[]> & { schedule_conflicts: Conflict[] } }
 export async function api<T>(path: string, body?: unknown, signal?: AbortSignal): Promise<T> {
-  const baseUrl = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/+$/, '')
-  const url = baseUrl ? `${baseUrl}${path}` : `/api${path}`
+  const baseUrl = (import.meta.env.VITE_API_BASE_URL ?? 'https://execflow-ai.onrender.com').replace(/\/+$/, '')
+  const normalizedPath = path.startsWith('/api') ? path : `/api${path}`
+  const url = baseUrl.includes('localhost') ? `/api${path}` : `${baseUrl}${normalizedPath}`
 
   const response = await fetch(url, {
     method: body === undefined ? 'GET' : 'POST',
