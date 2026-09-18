@@ -40,6 +40,7 @@ class Engine:
 
     async def ingest(self, incoming: SourceInput, as_of):
         as_of = wall_time(as_of)
+        result_as_of = max(as_of, incoming.timestamp)
         raw = incoming.model_dump(exclude={'source_id'})
         fingerprint = stable_id('source', raw)
         source_id = incoming.source_id or fingerprint
@@ -48,8 +49,8 @@ class Engine:
             if old and old['fingerprint'] != fingerprint:
                 raise SourceConflict('This source_id already belongs to different content. Use a new ID for a revision.')
             if old and old.get('processing_status') == 'PROCESSED':
-                tasks = [t for t in await self.tasks(as_of) if source_id in t['source_ids']]
-                return {'source_id': source_id, 'duplicate': True, 'processing_status': 'PROCESSED', 'as_of': as_of, 'affected_tasks': tasks}
+                tasks = [t for t in await self.tasks(result_as_of) if source_id in t['source_ids']]
+                return {'source_id': source_id, 'duplicate': True, 'processing_status': 'PROCESSED', 'as_of': result_as_of, 'affected_tasks': tasks}
             source = {**raw, 'source_id': source_id, 'fingerprint': fingerprint, 'created_at': old['created_at'] if old else now(), 'processing_status': 'PENDING'}
             await self.call('insert_source', source)
             await self.call('audit', 'SOURCE_INGESTED', source_id, {'source_type': source['source_type']}, source['timestamp'])
@@ -91,7 +92,7 @@ class Engine:
                 await self.call('patch_source', source_id, processing_status='PROCESSED', extraction_error=None, processed_at=now())
                 for conflict in await self.conflicts(as_of):
                     await self.call('audit', 'CONFLICT_DETECTED', stable_id('conflict', conflict), conflict, conflict['overlap_start'])
-                return {'source_id': source_id, 'duplicate': False, 'processing_status': 'PROCESSED', 'as_of': as_of,
+                return {'source_id': source_id, 'duplicate': False, 'processing_status': 'PROCESSED', 'as_of': result_as_of,
                         'affected_task_ids': sorted(affected_ids), 'affected_tasks': [t for t in await self.tasks(max(as_of, source['timestamp'])) if t['task_id'] in affected_ids]}
             except LLMError as error:
                 message = 'Source saved. AI processing is temporarily unavailable.'
