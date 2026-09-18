@@ -3,6 +3,12 @@ from datetime import datetime, timezone
 from typing import Any, Literal
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
+ASSIGNMENT_AS_OF = datetime(2026, 9, 25, 9)
+DatasetScope = Literal['assignment', 'personal']
+
+def reference_time(as_of, scope):
+    return as_of or (ASSIGNMENT_AS_OF if scope == 'assignment' else datetime.now())
+
 SourceType = Literal['EMAIL', 'MEETING', 'VOICE_NOTE', 'CALENDAR', 'NOTE', 'OTHER']
 Classification = Literal['MY_ACTION', 'WAITING_ON_OTHERS', 'OWNERSHIP_UNCLEAR']
 Status = Literal['OPEN', 'WAITING', 'DUE_TODAY', 'OVERDUE', 'RESOLVED', 'COMPLETION_UNVERIFIED', 'OWNERSHIP_UNCLEAR']
@@ -127,7 +133,8 @@ class Task(BaseModel):
 class ChatInput(BaseModel):
     model_config = ConfigDict(extra='forbid')
     question: str = Field(min_length=1, max_length=3000)
-    as_of: datetime = Field(default_factory=datetime.now)
+    scope: DatasetScope = 'assignment'
+    as_of: datetime | None = None
     conversation_id: str | None = Field(default=None, max_length=120, pattern=r'^[\w.-]+$')
 
 class Citation(BaseModel):

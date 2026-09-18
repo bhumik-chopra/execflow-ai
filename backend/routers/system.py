@@ -6,6 +6,7 @@ from starlette.concurrency import run_in_threadpool
 
 from schemas.system import ContextResponse, HealthResponse
 from config import get_settings
+from schemas.domain import DatasetScope, reference_time
 
 
 router = APIRouter(tags=["system"])
@@ -28,7 +29,7 @@ async def health(request: Request) -> HealthResponse:
 @router.get("/api/context", response_model=ContextResponse)
 @router.get("/context", response_model=ContextResponse)
 def context(
-    as_of: datetime = Query(default_factory=datetime.now, description="Reference time; defaults to the current server local time."),
+    scope: DatasetScope = 'assignment', as_of: datetime | None = None,
 ) -> ContextResponse:
     settings = get_settings()
-    return ContextResponse(as_of=as_of, user=settings.executive_user_name, role=settings.executive_user_role)
+    return ContextResponse(as_of=reference_time(as_of, scope), user=settings.executive_user_name, role=settings.executive_user_role)
