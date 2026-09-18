@@ -1,11 +1,10 @@
 import asyncio
 from datetime import datetime
-from typing import Annotated
 
 from fastapi import APIRouter, Query, Request
 from starlette.concurrency import run_in_threadpool
 
-from schemas.system import DEFAULT_AS_OF, ContextResponse, HealthResponse
+from schemas.system import ContextResponse, HealthResponse
 from config import get_settings
 
 
@@ -27,10 +26,7 @@ async def health(request: Request) -> HealthResponse:
 
 @router.get("/context", response_model=ContextResponse)
 def context(
-    as_of: Annotated[
-        datetime,
-        Query(description="Assignment reference time; never defaults to the computer clock."),
-    ] = DEFAULT_AS_OF,
+    as_of: datetime = Query(default_factory=datetime.now, description="Reference time; defaults to the current server local time."),
 ) -> ContextResponse:
     settings = get_settings()
     return ContextResponse(as_of=as_of, user=settings.executive_user_name, role=settings.executive_user_role)

@@ -16,7 +16,7 @@ class SourceInput(BaseModel):
     model_config = ConfigDict(extra='forbid')
     source_id: str | None = Field(default=None, max_length=120, pattern=r'^[\w.-]+$')
     source_type: SourceType
-    timestamp: datetime
+    timestamp: datetime = Field(default_factory=datetime.now)
     author: str = Field(min_length=1, max_length=200)
     recipients: list[str] = Field(default_factory=list, max_length=100)
     subject: str = Field(default='', max_length=500)
@@ -127,7 +127,7 @@ class Task(BaseModel):
 class ChatInput(BaseModel):
     model_config = ConfigDict(extra='forbid')
     question: str = Field(min_length=1, max_length=3000)
-    as_of: datetime = datetime(2026, 9, 25, 9)
+    as_of: datetime = Field(default_factory=datetime.now)
     conversation_id: str | None = Field(default=None, max_length=120, pattern=r'^[\w.-]+$')
 
 class Citation(BaseModel):

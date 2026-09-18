@@ -4,7 +4,6 @@ from typing import Literal
 from pydantic import BaseModel
 
 
-DEFAULT_AS_OF = datetime(2026, 9, 25, 9, 0, 0)
 
 
 class HealthResponse(BaseModel):
