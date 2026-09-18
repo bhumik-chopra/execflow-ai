@@ -6,11 +6,30 @@ export interface Source { source_id: string; source_type: string; timestamp: str
 export interface Conflict { event_a: { title: string }; event_b: { title: string }; overlap_start: string; overlap_end: string; overlap_minutes: number }
 export interface Brief { metrics: Record<string, number>; sections: Record<string, Task[]> & { schedule_conflicts: Conflict[] } }
 export async function api<T>(path: string, body?: unknown, signal?: AbortSignal): Promise<T> {
-  const response = await fetch(`/api${path}`, { method: body === undefined ? 'GET' : 'POST', headers: body === undefined ? undefined : { 'Content-Type': 'application/json' }, body: body === undefined ? undefined : JSON.stringify(body), signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(60000)]) : AbortSignal.timeout(60000) })
-  const data = await response.json()
+  const baseUrl = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/+$/, '')
+  const url = baseUrl ? `${baseUrl}${path}` : `/api${path}`
+
+  const response = await fetch(url, {
+    method: body === undefined ? 'GET' : 'POST',
+    credentials: 'include',
+    headers: body === undefined ? { Accept: 'application/json' } : { 'Content-Type': 'application/json', Accept: 'application/json' },
+    body: body === undefined ? undefined : JSON.stringify(body),
+    signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(60000)]) : AbortSignal.timeout(60000),
+  })
+
+  const text = await response.text()
+  let data: any = null
+  if (text) {
+    try {
+      data = JSON.parse(text)
+    } catch {
+      throw new Error('The server returned a non-JSON response. Check the backend URL and API status.')
+    }
+  }
+
   if (response.status === 401 && !path.startsWith('/auth/')) window.dispatchEvent(new Event('execflow:session-expired'))
-  if (!response.ok) throw new Error(typeof data.detail === 'string' ? data.detail : 'Unable to complete the request. Check the input and try again.')
-  return data as T
+  if (!response.ok) throw new Error(typeof data?.detail === 'string' ? data.detail : 'Unable to complete the request. Check the input and try again.')
+  return (data ?? {}) as T
 }
 export const getHealth = (signal?: AbortSignal) => api<Health>('/health', undefined, signal)
 export const getContext = (asOf: string, signal?: AbortSignal) => api<ReferenceContext>(`/context?as_of=${encodeURIComponent(asOf)}`, undefined, signal)
